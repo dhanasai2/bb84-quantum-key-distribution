@@ -26,20 +26,15 @@ A real-time interactive web application demonstrating the **BB84 Quantum Key Dis
 
 ## 🎯 Demo
 
-**Live Application**: [Your Deployed URL Here]
+**Live Application**: https://sai27309.pythonanywhere.com/
 
-### Screenshots
+### 📸 Screenshots
 
-┌─────────────────────┐ ┌─────────────────────┐ ┌─────────────────────┐
-│ Quantum State │ │ Eavesdropper │ │ Security Analysis │
-│ Visualization │ │ Monitoring │ │ Dashboard │
-│ │ │ │ │ │
-│ 🌐 Bloch Sphere │ │ 📊 Live Graphs │ │ 🛡️ Real-time QBER │
-│ │ │ │ │ Tracking │
-└─────────────────────┘ └─────────────────────┘ └─────────────────────┘
-
-yaml
-Copy code
+- 🔐 **Eavesdropper Simulation** – Monitor intruder activity in real-time  
+- 🛡️ **Security Analysis** – Track QBER and protocol integrity  
+- 🌐 **Quantum State Visualization** – 3D Bloch Sphere representation  
+- 📊 **Monitoring Dashboard** – Live graphs and communication status  
+- 📡 **Alice ↔ Bob Communication** – Real-time bit transfer animation  
 
 ---
 
@@ -59,27 +54,22 @@ Copy code
 Create and activate virtual environment
 
 bash
-Copy code
 python -m venv .venv
 Windows
 
 powershell
-Copy code
 .venv\Scripts\Activate.ps1
 Linux/macOS
 
 bash
-Copy code
 source .venv/bin/activate
 Install dependencies
 
 bash
-Copy code
 pip install -r requirements.txt
 Run the application
 
 bash
-Copy code
 python app.py
 Access the application
 
